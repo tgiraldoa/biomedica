@@ -1,0 +1,169 @@
+*{
+    font-family: 'acuminVariable';
+}
+.nav-img img {
+	width: 200px;
+} 
+
+#btnBuscar {
+  display: none;
+}
+
+.nav-img{
+   	margin-left: 30%;
+}
+.buscador_ul{
+    display: none;
+}
+#lenguaje_2, #lupaBuscador_cbt{
+    display: none;
+}
+
+#btn-perfil, #btn-favoritos {
+    display: none;
+}
+
+#buscadorLupa2, #buscadorLupa{
+  display: none;
+}
+
+.enlaces a {
+    color: #7c7c7d;
+}
+
+.btn-desplegable{
+    background: #f0853d;
+}
+
+#cnrPerfil, #cnrPerfil2, #cnrLogout,#cnrLogout2 {
+    display: none;
+} 
+.collapsing{
+    position: relative;
+}
+
+.collapser.show {
+    position: relative;
+}
+
+.navbar-collapse {
+    position: absolute;
+    z-index: 1;
+
+}
+
+.item {
+    font-size: 10px;
+    width: 90px;
+}
+
+.nav-img{
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px)  {
+    .buscador{
+        display: none;
+    }
+    .buscador_ul{
+        display: block;
+    }
+
+    .nav-img{
+    	margin: 0 auto;
+    }
+
+    #lenguaje_2, #lupaBuscador_cbt{
+        display: block;
+    }
+}
+
+.buscador{
+    position: absolute;
+    right: 0%;
+}
+
+#acceder:hover {
+  cursor: pointer;
+}
+
+/*=============================================
+SECCION DE CAMBIO DE IDIOMA
+=============================================*/
+
+#btnCambioIdioma, #btnCambioIdioma2 {
+  display: none;
+}
+
+#btnCambioIdioma:checked + .cambioIdioma {
+  display: block;
+}
+.cambioIdioma{
+  margin: auto;
+  display: none;
+}
+
+.cambioIdioma2 {
+  display: none;
+}
+
+.cambioIdioma a, .cambioIdioma2 a {
+  color: rgba(0,0,0,.5);
+}
+
+/*=============================================
+ESTILO PARA EL BUSCADOR
+=============================================*/
+.lupaImg{
+  background: #ebebeb;
+  border-color: none;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.inputLupa{
+  height: 51px;
+}
+
+#lupaBuscador{
+  width: 45px;
+}
+
+
+/*=====  End of Section comment block  ======*/
+
+/* Botones social2*/
+#m-soc2{width:220px;height:50px;margin:18px 0 0 10px;padding:0}
+#m-soc2 li{list-style:none;float:left;border:none;margin:7px;padding:0}
+#m-soc2 li a{background:url(http://1.bp.blogspot.com/-WEUoFdODkl4/T1klwzMGoSI/AAAAAAAAJDU/RLpgmO0OHjs/s1600/sprite2-compartidisimo.png) no-repeat 0 0;display:block;position:relative;width:33px;height:33px;overflow:visible;margin:0;padding:0}
+#m-soc2 li a.twitter{background-position:0 0}
+#m-soc2 li a.facebook{background-position:-33px 0}
+#m-soc2 li a.instagram{background-position:-66px 0}
+#m-soc2 li a.rss{background-position:-99px 0}
+#m-soc2 li a.twitter:hover{background-position:0 -33px}
+#m-soc2 li a.facebook:hover{background-position:-33px -33px}
+#m-soc2 li a.instagram:hover{background-position:-66px -33px}
+#m-soc2 li a.rss:hover{background-position:-99px -33px}
+#m-soc2 li a span{background:#555;position:absolute;top:-10px;left:-10px;width:auto;height:auto;opacity:0;text-align:left;color:#fff;filter:alpha(opacity=0);white-space:nowrap;border-radius:3px;font-size:12px;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out;padding:3px}
+#m-soc2 li a:hover{text-decoration:none}
+
+#m-soc2 li a:hover span{opacity:.7;filter:alpha(opacity=70);top:-23px}
+
+
+@font-face
+{
+   font-family: "acuminVariable" 
+   ;
+   src: url("fonts/AcuminVariableConcept.otf");
+}
+
+@font-face
+{
+   font-family: "Monstserrat";
+   src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face
+{
+   font-family: "MyriadPro";
+   src: url("fonts/MyriadPro-Regular.otf");
+}
