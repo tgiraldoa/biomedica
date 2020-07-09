@@ -1,132 +1,13 @@
-*{
-    font-family: 'acuminVariable';
-}
-.nav-img img {
-	width: 200px;
-} 
-
-#btnBuscar {
-  display: none;
+.menu {
+  background: rgb(48,119,116);
 }
 
-.nav-img{
-   	margin-left: 30%;
-}
-.buscador_ul{
-    display: none;
-}
-#lenguaje_2, #lupaBuscador_cbt{
-    display: none;
+.nav-link-a {
+  color: aliceblue;
 }
 
-#btn-perfil, #btn-favoritos {
-    display: none;
-}
-
-#buscadorLupa2, #buscadorLupa{
-  display: none;
-}
-
-.enlaces a {
-    color: #7c7c7d;
-}
-
-.btn-desplegable{
-    background: #f0853d;
-}
-
-#cnrPerfil, #cnrPerfil2, #cnrLogout,#cnrLogout2 {
-    display: none;
-} 
-.collapsing{
-    position: relative;
-}
-
-.collapser.show {
-    position: relative;
-}
-
-.navbar-collapse {
-    position: absolute;
-    z-index: 1;
-
-}
-
-.item {
-    font-size: 10px;
-    width: 90px;
-}
-
-.nav-img{
-    margin: 0 auto;
-}
-
-@media (max-width: 1200px)  {
-    .buscador{
-        display: none;
-    }
-    .buscador_ul{
-        display: block;
-    }
-
-    .nav-img{
-    	margin: 0 auto;
-    }
-
-    #lenguaje_2, #lupaBuscador_cbt{
-        display: block;
-    }
-}
-
-.buscador{
-    position: absolute;
-    right: 0%;
-}
-
-#acceder:hover {
-  cursor: pointer;
-}
-
-/*=============================================
-SECCION DE CAMBIO DE IDIOMA
-=============================================*/
-
-#btnCambioIdioma, #btnCambioIdioma2 {
-  display: none;
-}
-
-#btnCambioIdioma:checked + .cambioIdioma {
-  display: block;
-}
-.cambioIdioma{
-  margin: auto;
-  display: none;
-}
-
-.cambioIdioma2 {
-  display: none;
-}
-
-.cambioIdioma a, .cambioIdioma2 a {
-  color: rgba(0,0,0,.5);
-}
-
-/*=============================================
-ESTILO PARA EL BUSCADOR
-=============================================*/
-.lupaImg{
-  background: #ebebeb;
-  border-color: none;
-  border-style: none;
-  border-radius: 10px;
-}
-
-.inputLupa{
-  height: 51px;
-}
-
-#lupaBuscador{
-  width: 45px;
+.nav-link-a:hover {
+  color: antiquewhite;
 }
 
 
@@ -149,21 +30,3 @@ ESTILO PARA EL BUSCADOR
 
 #m-soc2 li a:hover span{opacity:.7;filter:alpha(opacity=70);top:-23px}
 
-
-@font-face
-{
-   font-family: "acuminVariable" 
-   ;
-   src: url("fonts/AcuminVariableConcept.otf");
-}
-
-@font-face
-{
-   font-family: "Monstserrat";
-   src: url("fonts/Montserrat-Bold.ttf");
-}
-@font-face
-{
-   font-family: "MyriadPro";
-   src: url("fonts/MyriadPro-Regular.otf");
-}
